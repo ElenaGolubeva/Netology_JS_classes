@@ -5,7 +5,7 @@ class Zombie extends Character {
     if (type !== 'Zombie') {
       throw new Error('Ошибка. Допускаются только персонажи типа: Zombie');
     }
-    super(name, type);
+    super(name);
     this.attack = 40;
     this.defence = 10;
   }

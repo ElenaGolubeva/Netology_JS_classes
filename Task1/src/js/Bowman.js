@@ -5,7 +5,7 @@ class Bowman extends Character {
     if (type !== 'Bowman') {
       throw new Error('Ошибка. Допускаются только персонажи типа: Bowman');
     }
-    super(name, type);
+    super(name);
     this.attack = 25;
     this.defence = 25;
   }

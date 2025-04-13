@@ -5,7 +5,7 @@ class Magician extends Character {
     if (type !== 'Magician') {
       throw new Error('Ошибка. Допускаются только персонажи типа: Magician');
     }
-    super(name, type);
+    super(name);
     this.attack = 10;
     this.defence = 40;
   }
